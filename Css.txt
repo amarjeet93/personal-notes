@@ -1,0 +1,77 @@
+CSS
+   *CSS stands for Cascading Style Sheets. 
+    *It is a style sheet language which is used to describe the look and formatting of a document written in markup language. It provides an additional feature to HTML. 
+	 *It is generally used with HTML to change the style of web pages and user interfaces. 
+	  *It can also be used with any kind of XML documents including plain XML, SVG and XUL.
+       *CSS is used along with HTML and JavaScript in most websites to create user interfaces for web applications and user interfaces for many mobile applications.
+	  <html>
+     <head>
+    <meta charset="utf-8">
+	</head>
+	<style>
+     body
+    { 
+    background-color: green;
+    h1 {
+    color: black;
+    }
+    bacon{
+    background-color: green;}
+   .brocoli{
+    background-color:red;
+    }
+   
+   </style>
+   </body>
+   </html> 
+Types Of CSS
+    inline CSS
+     *We can apply CSS in a single element by inline CSS technique.
+
+     *The inline CSS is also a method to insert style sheets in HTML document. 
+	 This method mitigates some advantages of style sheets so it is advised to use this method sparingly.
+
+      *If you want to use inline CSS, you should use the style attribute to the relevant tag.
+
+     Syntax:
+     <htmltag style="cssproperty1:value; cssproperty2:value;"> </htmltag>   
+	 
+	 Internal CSS
+    *The internal style sheet is used to add a unique style for a single document. 
+	*It is defined in <head> section of the HTML page inside the <style> tag.
+	
+	External CSS
+    *The external style sheet is generally used when you want to make changes on multiple pages. It is ideal for this condition because it facilitates you to change the look of the entire web site by changing just one file.
+    *It uses the <link> tag on every pages and the <link> tag should be put inside the head section.
+	 Example
+	 <head>  
+     <link rel="stylesheet" type="text/css" href="mystyle.css">  
+     </head>  
+
+CSS Comments
+  *CSS comments are generally written to explain your code. It is very helpful for the users who reads your code so that they can easily understand the code.
+  *Comments are ignored by browsers.
+  *Comments are single or multiple lines statement and written within /*............*/ .
+  
+The CSS border property defines a border around an HTML element.
+  Example
+   Use of CSS border property: 
+   p {
+  border: 2px solid powderblue;
+  }
+CSS Padding
+ The CSS padding property defines a padding (space) between the text and the border.
+
+ Example
+ Use of CSS border and padding properties:
+ p {
+  border: 2px solid powderblue;
+  padding: 30px;
+}
+CSS Margin
+  The CSS margin property defines a margin (space) outside the border.
+  Example
+  Use of CSS border and margin properties:
+  p {
+  border: 2px solid powderblue;
+  margin: 50px;}

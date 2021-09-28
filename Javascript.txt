@@ -1,0 +1,66 @@
+JavaScript
+***JavaScript (js) is a light-weight object-oriented programming language which is used by several websites for scripting the webpages. 
+ ***It is an interpreted, full-fledged programming language that enables dynamic interactivity on websites when applied to an HTML document. 
+  ***It was introduced in the year 1995 for adding programs to the webpages in the Netscape Navigator browser. Since then, it has been adopted by all other graphical web browsers. With JavaScript, users can build modern web applications to interact directly without reloading the page every time. 
+    ***The traditional website uses js to provide several forms of interactivity and simplicity.
+	JavaScript Example
+   <script>  
+     document.write("Hello JavaScript by JavaScript");  
+   </script> 
+
+   
+JavaScript Variable
+  A JavaScript variable is simply a name of storage location. 
+  There are two types of variables in JavaScript :
+  local variable and global variable.
+  There are some rules while declaring a JavaScript variable (also known as identifiers).
+    Name must start with a letter (a to z or A to Z), underscore( _ ), or dollar( $ ) sign.
+     After first letter we can use digits (0 to 9), for example value1.
+      JavaScript variables are case sensitive, for example x and X are different variables.
+
+The JavaScript if-else statement is used to execute the code whether condition is true or false. There are three forms of if statement in JavaScript.
+
+   If Statement
+    If else statement
+     if else if statement
+
+Javascript Data Types
+   JavaScript provides different data types to hold different types of values. There are two types of data types in JavaScript.
+    Primitive data type
+     Non-primitive (reference) data type
+      JavaScript is a dynamic type language, means you don't need to specify type of the variable because it is dynamically used by JavaScript engine. 
+       You need to use var here to specify the data type. It can hold any type of values such as numbers, strings etc. 
+
+JavaScript Functions
+  JavaScript functions are used to perform operations. 
+   We can call JavaScript function many times to reuse the code.
+
+  Advantage of JavaScript function
+    There are mainly two advantages of JavaScript functions.
+     Code reusability: We can call a function several times so it save coding.
+      Less coding: It makes our program compact. We don’t need to write many lines of code each time to perform a common task.
+       JavaScript Function Syntax
+       function functionName([arg1, arg2, ...argN]){  
+              //code to be executed  
+             } 
+JavaScript Array
+       JavaScript array is an object that represents a collection of similar type of elements.
+      There are 3 ways to construct array in JavaScript
+       By array literal
+       By creating instance of Array directly (using new keyword)
+       By using an Array constructor (using new keyword)			 
+	   
+JavaScript Loops
+    The JavaScript loops are used to iterate the piece of code using for, while, do while or for-in loops.
+	It makes the code compact. 
+	It is mostly used in array.
+      There are four types of loops in JavaScript.
+    for loop
+    while loop
+    do-while loop
+    for-in loop
+
+JavaScript Switch
+The JavaScript switch statement is used to execute one code from multiple expressions.
+ It is just like else if statement that we have learned in previous page. 
+ But it is convenient than if..else..if because it can be used with numbers, characters etc.
